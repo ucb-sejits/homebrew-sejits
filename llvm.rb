@@ -13,6 +13,9 @@ class Llvm < Formula
       "--enable-optimized",
     ]
 
+    system "git clone https://github.com/clang-omp/compiler-rt projects/compiler-rt"
+    system "git clone -b clang-omp https://github.com/clang-omp/clang tools/clang"
+
     system "./configure", *args
     system 'make'
     system 'make', 'install'
