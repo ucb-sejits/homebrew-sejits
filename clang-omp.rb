@@ -1,7 +1,7 @@
 require "formula"
 
 class ClangOmp < Formula
-  homepage ""
+  homepage "http://clang-omp.github.io"
   head "https://github.com/clang-omp/llvm", :using => :git
   sha1 ""
 
