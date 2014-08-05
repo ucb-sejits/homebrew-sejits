@@ -5,7 +5,7 @@ class ClangOmp < Formula
   head "https://github.com/clang-omp/llvm", :using => :git
   sha1 ""
 
-  keg_only :provided_by_osx, "OS X provides an older sqlite3."
+  keg_only :provided_by_osx, "OS X provides a different version of llvm/clang."
 
   def install
 
