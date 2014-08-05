@@ -3,6 +3,7 @@ require "formula"
 class Libomp < Formula
   homepage ""
   url "https://www.openmprtl.org/sites/default/files/libomp_20131209_oss.tgz"
+  head "https://www.openmprtl.org/sites/default/files/libomp_20131209_oss.tgz"
   sha1 "8a2bb24372dcddd275f374bcddfc0c5103cb0147"
 
   def install
